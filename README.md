@@ -58,7 +58,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout('https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO.git')
+                checkout('https://github.com/Abdulharis-cloud12/Jenkins-project.git')
             }
         }
         stage('Build') {
